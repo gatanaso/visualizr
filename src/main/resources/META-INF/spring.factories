@@ -1,0 +1,3 @@
+# Auto Configure Visualizr's Spring integration layer.
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.vaadin.visualizr.VisualizrAutoConfiguration

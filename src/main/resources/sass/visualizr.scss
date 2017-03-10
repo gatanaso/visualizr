@@ -1,0 +1,40 @@
+/** Visualizr styles */
+
+$glacier_blue: #1995AD;
+$ice: #A1D6E2;
+$warm_gray: #BCBABE;
+$stone: #336B87;
+$mist: #90AFC5;
+$toffee: #B6452C;
+
+.container-fluid, .row {
+  width: 100%;
+}
+
+.visualizr-card {
+  min-height: 431px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  &.label {
+    min-height: 45px;
+  }
+  & .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+}
+
+.valo .v-label-success {
+  border: 1px solid $stone;
+  &:before {
+    color: $glacier_blue;
+  }
+}
+
+.valo .v-label-failure {
+  border: 1px solid $toffee;
+  &:before {
+    color: $toffee;
+  }
+}

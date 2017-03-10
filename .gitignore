@@ -1,0 +1,15 @@
+# Maven files
+target/
+
+# Eclipse files
+.project
+.settings
+.classpath
+
+# IDEA files
+.idea
+
+# Misc files
+rebel.xml
+visualizr.css
+visualizr.css.map
